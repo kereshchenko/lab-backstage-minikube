@@ -1,0 +1,5 @@
+promtail:
+  create-namespace: true
+  config:
+    clients:
+      -url: http://loki-gateway/loki/api/v1/push
