@@ -54,7 +54,6 @@ data:
 
     clients:
     - url: http://loki-gateway/loki/api/v1/push
-      tenant_id: localtenant
 
     positions:
       filename: /tmp/positions.yaml
